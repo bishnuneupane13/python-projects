@@ -12,3 +12,4 @@ table_text = create_table()
 
 with open(f"multiply/multiplication_table_{n}.txt", "w") as file:
     file.write(f"{table_text}")
+
