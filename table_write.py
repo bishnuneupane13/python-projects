@@ -1,3 +1,4 @@
+
 n = int(input("Enter a number to create a multiplication table: "))
 
 def create_table():
@@ -12,4 +13,3 @@ table_text = create_table()
 
 with open(f"multiply/multiplication_table_{n}.txt", "w") as file:
     file.write(f"{table_text}")
-
